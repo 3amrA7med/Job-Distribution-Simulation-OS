@@ -8,8 +8,8 @@
 using namespace std;
 // Global Variables
 int time_interval; // Time interval for every run
-int dp[100][1000][500];
-int path[100][1000][500];
+int dp[101][501][1001];
+int path[101][501][1001];
 vector<int>ans[100];//store the right path
 int maxJobs; // Max number of jobs during the whole program
 vector<int> currentState; // Current state of the processed jobs through the whole runtime
